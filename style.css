@@ -1,0 +1,882 @@
+body{
+    margin: 0px;
+
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-bar a:nth-child(3) {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    
+}
+
+.nav-bar a:hover{
+    background-color: rgb(104, 110, 104);
+    
+}
+
+.nav-bar a:hover:nth-child(3){
+    background-color: black;
+}
+
+
+.vid{
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.cloth-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 100px;
+    margin-top: 20px
+}
+
+.cloth-nav a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    color: black;
+    border-bottom: 2px solid transparent;
+}
+
+
+.cloth-nav a:hover{
+    border-bottom-color: gray;
+}
+
+.tops a{
+    appearance: none;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: all 250ms ease-in-out 0s;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.68px;
+    min-height: 44px;
+    line-height: 1.14286;
+    width: 50%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 2;
+    pointer-events: auto;
+    height: 50px;
+    padding-inline: 15px;
+    margin-left: 325px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.tops a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+.feature{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.short img{
+    max-width: 90%;
+    padding-left: 20px;
+    padding-top: 0px;
+    border-radius: 3px;
+}
+
+.gown img{
+    max-width: 90%;
+    padding-left: 20px;
+    padding-top: 0px;
+    border-radius: 3px;
+}
+
+
+.jacket img{
+    max-width: 90%;
+    padding-left: 20px;
+    padding-top: 0px;
+    border-radius: 3px;
+}
+
+
+
+.short a{
+    appearance: none;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: all 250ms ease-in-out 0s;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.68px;
+    min-height: 44px;
+    line-height: 1.14286;
+    width: 60%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 2;
+    pointer-events: auto;
+    height: 50px;
+    padding-inline: 15px;
+    margin-left: 80px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.gown a{
+    appearance: none;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: all 250ms ease-in-out 0s;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.68px;
+    min-height: 44px;
+    line-height: 1.14286;
+    width: 60%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 2;
+    pointer-events: auto;
+    height: 50px;
+    padding-inline: 15px;
+    margin-left: 85px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.jacket a{
+    appearance: none;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: all 250ms ease-in-out 0s;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.68px;
+    min-height: 44px;
+    line-height: 1.14286;
+    width: 60%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    position: relative;
+    z-index: 2;
+    pointer-events: auto;
+    height: 50px;
+    padding-inline: 15px;
+    margin-left: 90px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.short a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.gown a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.jacket a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.line a:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+.foot{
+    background: black;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.comp a{
+    text-decoration: none;
+    color: white;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.sitewide-11sbwnd {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    grid-area: search;
+    height: 30px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+.logo{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    height: 30px;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    font-size: 45px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+}
+
+
+.sitewide-1n6w291-StyledSearchBoxForm {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    position: relative;
+    display: flex;}
+
+    .sitewide-1tqrdfb-StyledSearchBoxInput {
+    background: inherit;
+    color: rgb(0, 0, 0);
+    appearance: none;
+    border: 0px;
+    border-radius: 0px;
+    line-height: 1.7;
+    margin-left: 0px;
+    padding-left: 1rem;
+    outline: none;
+    width: 100%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;}
+
+    .sitewide-1o6ghqv {
+    appearance: none;
+    background: none;
+    border: 50px;
+    margin-top: 2px;
+    height: 1.625rem;
+    width: 6rem;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.form-container {
+margin-left: 500px;
+margin-top: 20px;
+width: 350px;
+border-radius: 0.75rem;
+background-color: rgba(17, 24, 39, 1);
+padding: 2rem;
+color: rgba(243, 244, 246, 1);
+display: flex;
+flex-direction: column;
+}
+
+.title {
+text-align: center;
+font-size: 1.5rem;
+line-height: 2rem;
+font-weight: 700;
+}
+
+.form {
+margin-top: 1.5rem;
+justify-content: space-between;
+}
+
+.input-group {
+padding-bottom: 0px;
+margin-top: 0.15rem;
+font-size: 0.875rem;
+width: 300px;
+line-height: 1.25rem;
+}
+
+.input-group label {
+display: block;
+color: rgba(156, 163, 175, 1);
+margin-bottom: 4px;
+}
+
+.input-group input {
+width: 100%;
+border-radius: 0.375rem;
+border: 1px solid rgba(55, 65, 81, 1);
+outline: 0;
+background-color: rgba(17, 24, 39, 1);
+padding: 0.75rem 1rem;
+color: rgba(243, 244, 246, 1);
+}
+
+.input-group input:focus {
+border-color: rgba(167, 139, 250);
+}
+
+.forgot {
+display: flex;
+justify-content: flex-end;
+font-size: 0.75rem;
+line-height: 1rem;
+color: rgba(156, 163, 175,1);
+margin: 8px 0 14px 0;
+}
+
+.forgot a,.signup a {
+color: rgba(243, 244, 246, 1);
+text-decoration: none;
+font-size: 14px;
+}
+
+.forgot a:hover, .signup a:hover {
+text-decoration: underline rgba(167, 139, 250, 1);
+}
+
+
+button {
+    padding-top: 30px;
+}
+
+.sign {
+display: block;
+margin-top: 20px;
+width: 100%;
+background-color: rgba(167, 139, 250, 1);
+padding: 0.75rem;
+text-align: center;
+color: rgba(17, 24, 39, 1);
+border: none;
+border-radius: 0.375rem;
+font-weight: 600;
+}
+
+.social-message {
+display: flex;
+align-items: center;
+padding-top: 1rem;
+}
+
+.social-message .message {
+padding-left: 0.75rem;
+padding-right: 0.75rem;
+font-size: 0.875rem;
+line-height: 1.25rem;
+color: rgba(156, 163, 175, 1);
+}
+
+.social-icons {
+display: flex;
+justify-content: center;
+}
+
+.social-icons .icon {
+border-radius: 0.125rem;
+padding: 0.75rem;
+border: none;
+background-color: transparent;
+margin-left: 8px;
+}
+
+.social-icons .icon svg {
+height: 1.25rem;
+width: 1.25rem;
+fill: #fff;
+}
+
+.signup {
+text-align: center;
+font-size: 0.75rem;
+line-height: 1rem;
+color: rgba(156, 163, 175, 1);
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.body{
+    margin: 0;
+    background-color: black;
+    }
+
+.form-container {
+margin-left: 500px;
+margin-top: 20px;
+width: 350px;
+border-radius: 0.75rem;
+background-color: rgba(17, 24, 39, 1);
+padding: 2rem;
+color: rgba(243, 244, 246, 1);
+display: flex;
+flex-direction: column;
+}
+
+.title {
+text-align: center;
+font-size: 1.5rem;
+line-height: 2rem;
+font-weight: 700;
+}
+
+.form {
+margin-top: 1.5rem;
+}
+
+.input-group {
+margin-top: 0.25rem;
+font-size: 0.875rem;
+width: 300px;
+line-height: 1.25rem;
+}
+
+.input-group label {
+display: block;
+color: rgba(156, 163, 175, 1);
+margin-bottom: 4px;
+}
+
+.input-group input {
+width: 100%;
+border-radius: 0.375rem;
+border: 1px solid rgba(55, 65, 81, 1);
+outline: 0;
+background-color: rgba(17, 24, 39, 1);
+padding: 0.75rem 1rem;
+color: rgba(243, 244, 246, 1);
+}
+
+button {
+width: 100%;
+border-radius: 0.375rem;
+border: 1px solid rgba(55, 65, 81, 1);
+outline: 0;
+background-color: rgba(17, 24, 39, 1);
+padding: 0.75rem 1rem;
+color: rgba(243, 244, 246, 1);
+}
+
+.input-group input:focus {
+border-color: rgba(167, 139, 250);
+}
+
+.forgot {
+display: flex;
+justify-content: flex-end;
+font-size: 0.75rem;
+line-height: 1rem;
+color: rgba(156, 163, 175,1);
+margin: 8px 0 14px 0;
+}
+
+.forgot a,.signup a {
+color: rgba(243, 244, 246, 1);
+text-decoration: none;
+font-size: 14px;
+}
+
+.forgot a:hover, .signup a:hover {
+text-decoration: underline rgba(167, 139, 250, 1);
+}
+
+.sign {
+display: block;
+width: 100%;
+background-color: rgba(167, 139, 250, 1);
+text-align: center;
+color: rgba(17, 24, 39, 1);
+border: none;
+border-radius: 0.375rem;
+font-weight: 600;
+}
+
+.social-message {
+display: flex;
+align-items: center;
+padding-top: 1rem;
+}
+
+.line {
+height: 1px;
+flex: 1 1 0%;
+background-color: rgba(55, 65, 81, 1);
+}
+
+.social-message .message {
+padding-left: 0.75rem;
+padding-right: 0.75rem;
+font-size: 0.875rem;
+line-height: 1.25rem;
+color: rgba(156, 163, 175, 1);
+}
+
+.social-icons {
+display: flex;
+justify-content: center;
+}
+
+.social-icons .icon {
+border-radius: 0.125rem;
+padding: 0.75rem;
+border: none;
+background-color: transparent;
+margin-left: 8px;
+}
+
+.social-icons .icon svg {
+height: 1.25rem;
+width: 1.25rem;
+fill: #fff;
+}
+
+.signup {
+text-align: center;
+font-size: 0.75rem;
+line-height: 1rem;
+color: rgba(156, 163, 175, 1);
+}
+
+/* For devices with a maximum width of 768px (tablets and mobile devices) */
+@media (max-width: 768px) {
+.form-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.input-group {
+    width: 350px;
+}
+
+.title {
+    font-size: 1.25rem;
+}
+
+.forgot, .signup {
+    font-size: 0.875rem;
+}
+
+.sign {
+    font-size: 0.875rem;
+    padding: 0.5rem;
+}
+
+.social-message .message {
+    font-size: 0.75rem;
+}
+
+.social-icons .icon {
+    margin-left: 4px;
+}
+}
+
+/* For devices with a maximum width of 480px (small mobile devices) */
+@media (max-width: 480px) {
+.form-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0.5rem;
+}
+
+.title {
+    font-size: 1rem;
+}
+
+.input-group input {
+    padding: 0.5rem;
+}
+
+.forgot, .signup {
+    font-size: 0.75rem;
+}
+
+.sign {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+}
+
+.social-message .message {
+    font-size: 0.625rem;
+}
+
+.social-icons .icon {
+    margin-left: 2px;
+}
+}
+
+
+/* For tablets (width between 600px and 768px) */
+@media (max-width: 768px) {
+    .nav-bar {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav-bar a {
+        padding: 10px 20px;
+    }
+
+    .cloth-nav {
+        flex-direction: row;
+        padding: 5px 20px;
+        align-items: center;
+    }
+
+    .line a {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .feature {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .short img, .gown img, .jacket img {
+        max-width: 90%;
+        padding-left: 20px;
+        justify-content: space-between;
+    }
+
+    .short a, .gown a, .jacket a {
+        max-width: 100%;
+    }
+
+    .logo {
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .sitewide-11sbwnd {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+/* For mobile devices (width less than 600px) */
+@media (max-width: 600px) {
+    .nav-bar {
+        flex-direction: row;
+        position: sticky;
+        align-items: center;
+    }
+
+    .nav-bar a {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+
+    .cloth-nav {
+        flex-direction: row;
+        padding: 5px 10px;
+        align-items: center;
+    }
+
+    .line a {
+        width: 100%;
+        margin-left: 0;
+        font-size: 12px;
+    }
+
+    .feature {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .short img, .gown img, .jacket img {
+        max-width: 90%;
+        padding-left: 7.5px;
+        margin: 0px;
+        justify-content: space-evenly;
+
+
+    }.gown a, .jacket a {
+        max-width: 100%;
+        margin-top: 0px;
+        margin-left: 30px;
+        display: inline-flex;
+        text-align: center;
+    }
+
+    .short a{
+        max-width: 100%;
+        margin-left: 30px;
+        margin-top: 0px;
+        display: inline-flex;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 25px;
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 5px;
+    }
+
+    .sitewide-11sbwnd {
+        flex-direction: row;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    .comp{
+        display: flex;
+        
+    }
+}
+
+
+/* For devices with a maximum width of 768px (tablets and mobile devices) */
+@media (max-width: 768px) {
+    .form-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    padding: 1rem;
+    }
+    
+    .input-group {
+    width: 350px;
+    }
+    
+    .title {
+    font-size: 1.25rem;
+    }
+    
+    .forgot, .signup {
+    font-size: 0.875rem;
+    }
+    
+    .sign {
+    font-size: 0.875rem;
+    padding: 0.5rem;
+    }
+    
+    .social-message .message {
+    font-size: 0.75rem;
+    }
+    
+    .social-icons .icon {
+    margin-left: 4px;
+    }
+    }
+    
+    /* For devices with a maximum width of 480px (small mobile devices) */
+    @media (max-width: 480px) {
+    .form-container {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0.5rem;
+    }
+    
+    .title {
+    font-size: 1rem;
+    }
+    
+    .input-group input {
+    padding: 0.5rem;
+    }
+    
+    .forgot, .signup {
+    font-size: 0.75rem;
+    }
+    
+    .sign {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    }
+    
+    .social-message .message {
+    font-size: 0.625rem;
+    }
+    
+    .social-icons .icon {
+    margin-left: 2px;
+    }
+    }
+    
+    
